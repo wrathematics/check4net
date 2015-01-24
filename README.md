@@ -16,5 +16,5 @@ check4net(timeout=10, verbose=TRUE, beep=TRUE)
 # Sleeping: 9....8....7....6....5....4....3....2....1....0....
 # Checking...Success!
 # Net's back!
-# [1]
+# [1] TRUE
 ```
