@@ -1,0 +1,12 @@
+Package: check4net
+Type: Package
+License: BSD 2-clause License + file LICENSE
+Version: 1.0
+Title: Check for Internet Access
+Description: A simple utility that continuously checks for net
+      availability, and alerts you when you regain access.
+Depends: R (>= 2.14.0), beepr, pingr
+NeedsCompilation: no
+ByteCompile: yes
+Author: Drew Schmidt
+Maintainer: Drew Schmidt <wrathematics@gmail.com>
