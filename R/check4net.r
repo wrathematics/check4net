@@ -56,6 +56,6 @@ check4net <- function(timeout=10, verbose=TRUE, beep=TRUE)
   if (beep) beep()
   if (verbose) cat("Net's back!\n")
   
-  return(TRUE)
+  return(invisible(TRUE))
 }
 
