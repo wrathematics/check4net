@@ -3,10 +3,13 @@ verbose_sleeper <- function(timeout)
   cat("Sleeping: ")
   for (i in 1:timeout)
   {
-    cat(timeout-i)
     for (j in 1:4)
     {
-      cat(".")
+      if (j == 1)
+        cat(timeout-i + 1)
+      else
+        cat(".")
+      
       Sys.sleep(.25)
     }
   }
